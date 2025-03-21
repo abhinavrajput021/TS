@@ -8,6 +8,12 @@
         "src": "/(.*)",
         "dest": "/api/index.php"
     }],
+    
+    "scripts": {
+       "preinstall": "apt-get update && apt-get install -y libssl-dev",
+       "build": "vercel build"
+    },
+
     "env": {
         "APP_ENV": "production",
         "APP_DEBUG": "true",
