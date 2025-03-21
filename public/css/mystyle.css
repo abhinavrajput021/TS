@@ -1,0 +1,50 @@
+.box{
+    width:226.33px;
+    height:226.33px;
+    border:2px solid black;
+    border-radius: 10%;
+ }
+ 
+ .super-login{
+    background-image:url("../images/super_admin_login.jpg");
+    background-size:cover;
+ }
+ 
+ 
+ .admin-login{
+    background-image:url("../images/admin_login.jpg");
+    background-size:cover;
+ }
+ 
+ 
+ .employee-login{
+    background-image:url("../images/employee_login.jpg");
+    background-size:cover;
+ }
+
+ /* Flash session start */
+
+ .success-message{
+   background-color:lightgreen;
+   color:rgb(23, 49, 2);
+   border-radius:2px;
+   padding:2px 20px;
+   margin-bottom:10px;
+   display:inline-block;
+}
+
+.error-message{
+   background-color:rgb(207, 200, 98);
+   color:rgb(168, 8, 16);
+   border-radius:2px;
+   padding:2px 20px;
+   margin-bottom:10px;
+   display:inline-block;
+}
+
+
+ /* flsh session end */
+
+ .ok{
+   color:red;
+ }
